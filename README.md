@@ -1,7 +1,5 @@
 # Lab: Build a Database MCP Server with FastMCP and SQLite
 
-Verified against the reference implementation in [`../implementation`](../implementation) on May 13, 2026.
-
 ## Goal
 
 Build a Model Context Protocol (MCP) server using FastMCP that exposes a small database through:
@@ -181,19 +179,3 @@ Optional bonus:
 - add authentication for SSE or HTTP transport
 - support both SQLite and PostgreSQL with the same MCP surface
 - add richer output annotations or pagination
-
-## Reference Implementation
-
-The runnable solution is in [`../implementation`](../implementation).
-
-Verified helper scripts:
-
-- `../implementation/start_inspector.sh`
-- `../implementation/test_gemini_mcp.sh`
-
-For a non-solution teaching version, see:
-
-- [`./pseudocode/mcp_server.py`](./pseudocode/mcp_server.py)
-- [`./pseudocode/db.py`](./pseudocode/db.py)
-- [`./pseudocode/init_db.py`](./pseudocode/init_db.py)
-- [`./Tips.md`](./Tips.md)
